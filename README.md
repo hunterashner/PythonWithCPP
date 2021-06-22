@@ -1,2 +1,9 @@
 # PythonWithCPP
-This is an Integration of Python into C++ code for use with analyzing data sets.
+
+This project is a basic integration of Python into C++.  It allows for the use of python to analyze data by connecting python and C++ and allowing for pythons functions to be called directly from the the C++ source.  This code reads data from a .txt file and and is able to parse and perform maths on the underlying data before writing it back to a seperate .dat.  The main benefit of this connection is python is able to be utilized for its power working with data sets even in a project that is better suited to be written in C++
+
+I think I have created the logic in python particulary well and it seems to operate as expected.  This code could be enhanced to parse the original data set more effectively by using pythons parsing abilities rather than looping through the data with C++ and storing it into seperate vectors.  I found parsing the .txt to be the most challenging at the time of writing the code, but looking back python could be utilized further to seperate the data stored in the original .txt file.
+
+Creating this small project has been a great opprotunity to work with two languages simultaneously and get comfortable using two seperate languages side by side to utilize their strengths in different scenarios.  I think being able to work with multiple languages simultaneously is an important skill to have that is highly transferable to other projects.  I also think that knowing when to utilize another language and when not to is important, sometimes it is frankly not worth the trouble when similar results could be had with just one language.
+
+In order to keep this program readable and maintainable I attempted to use standard naming conventions, and comment any code that was difficult to interpret.  If this project was to get any larger seperating the C++ into seperate classes would be necessary.
